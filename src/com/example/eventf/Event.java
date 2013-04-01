@@ -33,14 +33,6 @@ public Event(String data,String date,String day,String month,String year,String 
 	
 }
 
-public Bitmap getBitmap(String bitmapUrl) {
-	try {
-		URL url = new URL(bitmapUrl);
-		return BitmapFactory.decodeStream(url.openConnection() .getInputStream()); 
-	}
-	catch(Exception ex) {return null;}
-}
-
 
 
 

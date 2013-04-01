@@ -19,21 +19,21 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="6dp"
             android:layout_marginTop="6dp"
-            android:background="@drawable/externalrectangle" />
+            android:background="@drawable/date_external_rec" />
         
           <ImageView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:layout_marginLeft="6dp"
               android:layout_marginTop="6dp"
-              android:background="@drawable/rectangle_internal" />
+              android:background="@drawable/date_internal_rec" />
           
            <ImageView
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:layout_marginLeft="21dp"
               android:layout_marginTop="11dp"
-              android:background="@drawable/small_rectangle" />
+              android:background="@drawable/date_small_rec" />
 
         
         

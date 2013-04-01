@@ -25,15 +25,15 @@ public final class R {
     }
     public static final class drawable {
         public static final int a=0x7f020000;
-        public static final int baaa=0x7f020001;
-        public static final int c=0x7f020002;
-        public static final int divider=0x7f020003;
-        public static final int externalrectangle=0x7f020004;
+        public static final int data_rec=0x7f020001;
+        public static final int date_external_rec=0x7f020002;
+        public static final int date_internal_rec=0x7f020003;
+        public static final int date_small_rec=0x7f020004;
         public static final int ic_launcher=0x7f020005;
         public static final int list=0x7f020006;
         public static final int list_divider=0x7f020007;
-        public static final int rectangle_internal=0x7f020008;
-        public static final int small_rectangle=0x7f020009;
+        public static final int share=0x7f020008;
+        public static final int share_rec=0x7f020009;
     }
     public static final class id {
         public static final int action_settings=0x7f090010;
@@ -55,11 +55,10 @@ public final class R {
         public static final int year=0x7f090005;
     }
     public static final class layout {
-        public static final int fragment_gold_visitors=0x7f030000;
-        public static final int fragmenta=0x7f030001;
-        public static final int fragmentb=0x7f030002;
-        public static final int listitem=0x7f030003;
-        public static final int viewer=0x7f030004;
+        public static final int fragmenta=0x7f030000;
+        public static final int fragmentb=0x7f030001;
+        public static final int listitem=0x7f030002;
+        public static final int viewer=0x7f030003;
     }
     public static final class menu {
         public static final int main=0x7f080000;
