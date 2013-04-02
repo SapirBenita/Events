@@ -18,23 +18,38 @@ public class Event {
 	public String imageUrl;
 	
 
-public Event(String data,String date,String day,String month,String year,String place,String hours,String title,final String imageUrl){
+
+public void  setTime (String hours,String day, String month,String year,String date ){
 	
-	this.data=data;
-	this.day=day;
 	this.hours=hours;
-	this.place=place;
-	this.title=title;
+	this.day=day;
 	this.month=month;
 	this.year=year;
 	this.date=date;
-	this.imageUrl=imageUrl;
-	
 	
 }
 
+public void setData(String data){
+	
+this.data=data;	
+}
+
+public void setPlace(String place){
+
+this.place=place;	
+}
+
+public void setTitle(String title){
+	
+	this.title=title;
+	
+}
+
+public void setImageUrl(String imageUrl){
+
+this.imageUrl=imageUrl;
 
 
-
+}
 
 }

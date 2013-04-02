@@ -247,7 +247,14 @@ public class FragmentEvent extends ListFragment {
 				
 				place= place+"\n";
 				
-			    Event event = new Event(data,date,day,month,year,place, hours, title,imageUrl);
+				
+				
+			    Event event = new Event();
+			    event.setData(data);
+			    event.setImageUrl(imageUrl);
+			    event.setPlace(place);
+			    event.setTitle(title);
+			    event.setTime(hours, day, month, year, date);
 			    events.add(event);
 
 			}
